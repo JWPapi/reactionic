@@ -27,10 +27,10 @@ var IonTab = React.createClass({
       this.props.customClasses
     );
     return (
-        <Link to={this.props.to} className={ classes } activeClassName="active" >
+        <a href={this.props.to} className={ classes } activeClassName="active" >
           { icon }
           { this.props.label }
-        </Link>
+        </a>
 
     );
   }
